@@ -1,0 +1,208 @@
+:root{
+    --logo-color : #12006E
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header{
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+#gnb > ul{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;    
+    top: 26px;
+    right: 80px;
+    overflow: hidden;
+}
+
+#gnb > ul > li{
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    float: left;
+}
+
+#gnb > ul > li > a{
+    color: var(--logo-color);
+    font-size: 18px;
+    text-transform: uppercase;   
+}
+
+#gnb > ul > li > a:hover{
+    color: #F45B5B;
+}
+
+#gnb .depth2 {
+    margin-top: 8px;
+    width: 110px;
+    background: rgb(0,0,0,0.6);
+    padding: 9px;
+    height: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#gnb .depth2.on{
+    height: 100%;
+    opacity: 1;
+}
+
+#gnb .depth2 li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#gnb .depth2 li a:hover{
+    color : #F45B5B
+}
+
+#gnb .depth2 li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+#main{
+    background-color: var(--logo-color);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .title-group{
+    text-align: center;
+}
+
+#main .title-group img{
+    display: inline-block;
+}
+
+#main .title-group .text h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#main .title-group .text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section-bg{
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#mamamoo {
+    background-image: url(./images/bg-mamamoo-1.jpg);
+}
+
+#oneus{
+    background-image: url(./images/bg-oneus-1.jpg);
+}
+
+#onewe{
+    background-image: url(./images/bg-onewe-1.jpg);
+}
+
+#vromance{
+    background-image: url(./images/bg-vromance-1.jpg);
+}
+
+#purplekiss{
+    background-image: url(./images/bg-purplekiss-1.jpg);
+}
+
+.section-bg .title-group{
+    text-align: center;
+    display: none;
+}
+
+.section-bg .title-group.on{
+    display: block;
+}
+
+.section-bg h2{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.section-bg .section-nav li{
+    color: #fff;
+    display: inline-block;
+}
+
+.section-bg .section-nav li span{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.section-bg .section-nav li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section-bg .section-nav li a:hover{
+    color: #F45B5B;
+}
+
+#main-footer{
+    height: 80px;
+    background: #000;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+
+#main-footer .copy{
+    margin-top: 30px;
+    float: left;
+    font-size: 16px;
+}
+
+
+#main-footer ul li{
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+}
