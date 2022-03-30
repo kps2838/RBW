@@ -27,7 +27,8 @@ body{
 header{
     height: 70px;
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     position: relative;
 }
 
@@ -35,7 +36,7 @@ header{
     font-family: 'Roboto', sans-serif;
     position: absolute;    
     top: 26px;
-    right: 80px;
+    right: 30px;
     overflow: hidden;
 }
 
@@ -130,28 +131,28 @@ header{
 }
 
 #mamamoo {
-    background-image: url(./images/bg-mamamoo-1.jpg);
+    background-image: url(./images/bg-mamamoo-2.jpg);
 }
 
 #oneus{
-    background-image: url(./images/bg-oneus-1.jpg);
+    background-image: url(./images/bg-oneus-2.jpg);
 }
 
 #onewe{
-    background-image: url(./images/bg-onewe-1.jpg);
+    background-image: url(./images/bg-onewe-2.jpg);
 }
 
 #vromance{
-    background-image: url(./images/bg-vromance-1.jpg);
+    background-image: url(./images/bg-vromance-2.jpg);
 }
 
 #purplekiss{
-    background-image: url(./images/bg-purplekiss-1.jpg);
+    background-image: url(./images/bg-purplekiss-2.jpg);
 }
 
 .section-bg .title-group{
     text-align: center;
-    display: none;
+    /* display: none; */
 }
 
 .section-bg .title-group.on{
