@@ -38,13 +38,13 @@ header{
     top: 26px;
     right: 30px;
     overflow: hidden;
+    display: flex;
+
 }
 
 #gnb > ul > li{
-    display: inline-block;
     margin-left: 60px;
     text-align: center;
-    float: left;
 }
 
 #gnb > ul > li > a{
@@ -201,9 +201,12 @@ header{
 }
 
 
+#main-footer ul{
+    display: flex;
+    justify-content: end;
+}
+
 #main-footer ul li{
     margin-top: 20px;
-    display: inline-block;
-    float: right;
     margin-left: 20px;
 }
